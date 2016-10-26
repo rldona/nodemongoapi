@@ -51,7 +51,7 @@ module.exports = function(app) {
       if (err) {
         res.json({ info: 'Error during remove engineer', error: err });
       };
-      res.json({ info: 'cat removed successfully' });
+      res.json({ info: 'Engineer removed successfully' });
     });
   });
 
